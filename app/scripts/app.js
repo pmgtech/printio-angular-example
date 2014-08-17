@@ -15,6 +15,6 @@ var printio = angular.module('printIO', ['ngRoute'])
                 redirectTo: '/products'
             });
     })
-    .constant('apiUrl', 'https://api.print.io/api/v/1/source/widget')
+    .constant('apiUrl', 'https://widget.print.io/api/v/1/source/widget')
     // TODO: Change this to your recipeId
     .constant('recipeId', 'f255af6f-9614-4fe2-aa8b-1b77b936d9d6');
