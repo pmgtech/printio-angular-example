@@ -13,8 +13,8 @@ printio.controller('HeaderCtrl', ['$scope', function($scope) {
      * TODO: add in your recipeId
      */
     PIO.config({
-        recipeId:"6cfb4f30-34c7-4cf6-9490-f51925650811",
-        url:"https://api.print.io/widget/",
+        recipeId:"f255af6f-9614-4fe2-aa8b-1b77b936d9d6",
+        url:"https://widget.print.io/widget/",
         fns:{
             onCartChange:function(cart){
                 console.log()
